@@ -49,3 +49,17 @@ LLM Chatbot is a question answering chatbot based on the LLM (Language, Logic, a
     - Translate the first paragraph of the document named sample.pdf to French.
     - How do I install FAISS?
     - What is the LLM framework?
+
+ ## [**QA_Chatbot Deployed - HuggingFace CodeSpaces**](https://github.com/hargurjeet/Q-A_Chatbot?tab=readme-ov-file)
+ QA Chatbot is a question-answering chatbot powered by OpenAI’s GPT Turbo and built using the LangChain framework. It can answer questions based on the content it has learned which is up to September 2021 at the time of writing this post.
+
+ - **Demo**
+  <br> You can try out the chatbot online using this link: [QA Chatbot Demo](https://huggingface.co/spaces/Hargurjeet/LangChainQ-AChatbot). This is a Hugging Face Space that hosts the chatbot and allows you to interact with it in real time.
+- **Installation**
+  <br> To install the chatbot locally, you need to have Python 3.8 or higher and pip installed. Then, you can follow these steps:
+    - Clone this repository:
+      `git clone https://github.com/hargurjeet/Q-A_Chatbot`
+    - Install the required dependencies:
+      `pip install -r requirements.txt`
+    - source code - app.py
+    `streamlit run app.py`

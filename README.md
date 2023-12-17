@@ -59,11 +59,11 @@ This application is designed to facilitate blog development using the Meta Llama
     - User-Friendly: Designed to be accessible to individuals with varying levels of technical expertise.
 
 - **Usage**
-the Meta Llama 2 model and generate blog content. Users can select a profile, such as "Researcher" or "Data Scientist," and specify the desired word limit for the content. The model will then generate a blog post based on the selected profile and word limit.
+<br> The Meta Llama 2 model and generate blog content. Users can select a profile, such as "Researcher" or "Data Scientist," and specify the desired word limit for the content. The model will then generate a blog post based on the selected profile and word limit.
 
-The application also allows users to create both long-form and short-form content, depending on their needs. Users can specify a word limit ranging from 100 to 1000 words, providing flexibility in the length of the generated content.
-
-Overall, the application provides a simple and efficient way to generate high-quality blog content, even for users without extensive app development knowledge.
+    The application also allows users to create both long-form and short-form content, depending on their needs. Users can specify a word limit ranging from 100 to 1000 words, providing flexibility in the length of the generated content.
+    
+    Overall, the application provides a simple and efficient way to generate high-quality blog content, even for users without extensive app development knowledge.
 
 - **Installation**
   <br> To install the chatbot locally, you need to have Python 3.8 or higher and pip installed. Then, you can follow these steps:

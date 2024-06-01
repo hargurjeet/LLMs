@@ -3,6 +3,27 @@
 
 <br> This repository serves as a centralized hub for my contributions to large language models (LLMs). Here, you'll find my work on developing and fine-tuning LLMs, along with associated resources and documentation. By maintaining all my LLM contributions in this repository, I aim to provide a comprehensive overview of my work in this domain.
 
+## **Crewai Multi-Agent Blog Content Creator** ([Repo link](https://github.com/hargurjeet/crewai))
+- **Overview**
+     <br> The Crewai Multi-Agent Blog Content Creator project uses Crewai to build multiple AI agents that communicate among each other to create blog content from YouTube videos. The project utilizes OpenAI's ChatGPT as the language model for tasks like caption extraction, research, and content creation.
+- **Features**
+    - Caption Extractor: Extracts captions from YouTube videos.
+    - Blog Researcher: Gathers detailed information on the video's topic.
+    - Blog Writer: Summarizes the information into engaging blog content.
+ 
+- **Installation**
+
+    To run the chatbot locally, follow these steps:
+    1. Clone the repository `git clone https://github.com/hargurjeet/crewai.git`
+    2. Install the required dependencies using `pip install -r requirements.txt`
+    3. python main.py
+ 
+- **Potential Use Cases**
+
+    - **Content Creation**: Automates the creation of high-quality blog posts from video content, saving time for content creators.
+    - **Educational Summaries**: Generates detailed summaries and explanations of educational YouTube videos for use in study guides or educational blogs.
+    - **Marketing**: Creates blog content that can be used to promote products, services, or ideas presented in YouTube videos.
+    - **SEO**: Enhances SEO by generating relevant, keyword-rich blog content derived from popular YouTube videos. 
 
 ## **QA Chatbot - Cloud Vector Store** ([Repo link](https://github.com/hargurjeet/VectoreStore_Streamlit_Projects))
 This is a QA chatbot created using Langchain and Cloud Vector Store, and built with the Streamlit interface.

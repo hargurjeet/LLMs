@@ -25,6 +25,46 @@
     - **Marketing**: Creates blog content that can be used to promote products, services, or ideas presented in YouTube videos.
     - **SEO**: Enhances SEO by generating relevant, keyword-rich blog content derived from popular YouTube videos. 
 
+## **AI Agents Based Data Access Application** ([Repo link](https://github.com/hargurjeet/Agent_RAG_Llama_Index))
+- **Overview**
+     <br> This application leverages AI agents to access and extract information from various data sources. The agents are built using llama index and gpt-3.5-turbo. The project includes two specialized agents:
+
+     1. PDF Agent: Reads and extracts information from PDF files.
+     2. Tabular Data Agent: Accesses and extracts information from tabular datasets (e.g., CSV files).
+The AI agents determine the most appropriate data source based on the query and provide the relevant information. Additionally, the agents can save the extracted information to a notepad file if instructed.
+
+- **Features**
+    - AI-powered data extraction from PDF and CSV files.
+    - Intelligent selection of data source based on query.
+    - Save extracted information to a notepad file.
+
+- **Installation**
+
+    To run the chatbot locally, follow these steps:
+    1. Clone the repository `git clone https://github.com/hargurjeet/Agent_RAG_Llama_Index`
+    2. Install the required dependencies using `pip install -r requirements.txt`
+    3. python main.py
+
+ - **Usage**
+             <br> 1. **Running the Application**:
+
+    Execute the main script to start the application:
+          
+              ```bash
+              python main.py
+              ```
+
+2. **Querying the AI Agents**:
+     
+    - You can ask questions related to the population of countries or information about India.
+    - Based on your query, the appropriate agent will be activated to fetch the information.
+     
+3. **Saving Information**:
+     
+    - If you want to save the extracted information, specify this in your query.
+    - The information will be saved to a notepad file.
+
+
 ## **QA Chatbot - Cloud Vector Store** ([Repo link](https://github.com/hargurjeet/VectoreStore_Streamlit_Projects))
 This is a QA chatbot created using Langchain and Cloud Vector Store, and built with the Streamlit interface.
 - **Overview**
